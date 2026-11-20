@@ -20,8 +20,6 @@ class VideoKajianScreen extends StatelessWidget {
   static const Color peach = Color(0xFFF28F70);
   static const Color background = Color(0xFFF7F1F8);
 
-  // Ganti videoId dengan ID YouTube asli. Contoh:
-  // URL https://www.youtube.com/watch?v=abc123 -> ID-nya abc123
   static const List<KajianVideo> daftarVideo = [
     KajianVideo(
       ustadz: 'Ustadz Khalid Basalamah',
